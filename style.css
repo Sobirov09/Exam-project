@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto",
+        sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+ul, ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav-image{
+    width: 13px;
+    height: 9px;
+}
+header{
+    display: flex;
+    gap: 115px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    gap: 50px;
+}
+.nav-list__items{
+    font-size: 18px;
+}
+.nav-list__items a {
+    color: #1F2E35;
+}
+.social-icons{
+    display: flex;
+    gap: 24px;
+}
+hr{
+    border: 1.5px solid rgb(177, 174, 174);
+}
+/* Main, hero */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 71px;
+}   
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.hero-span{
+    color: red;
+}
+.hero-p{
+    font-size: 20px;
+    color: #30444E;
+    margin-bottom: 30px;
+}
+.hero-button{
+    width: 161px;
+    height: 53px;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 32px;
+    background-color: #EE4248;
+    color: white;
+}
+/* About Section */
+.about{
+    background-color: #F6F6F6;
+}
+.wrapper{
+    display: flex;
+    gap: 120px;
+}
+.about-h2{
+    font-size: 35px;
+}
+.about-text{
+    margin-top: 60px;
+}
+.about-span {
+    color: red;
+}
+.about-p__span {
+    color: red;
+    font-weight: 500;
+}
+.about-p{
+    margin-top: 24px;
+    font-size: 18px;
+    color: #30444E;
+}
+/* Product Section */
+.product-h2{
+    text-align: center;
+    margin-top: 110px;
+    font-size: 32px;
+    color: #1F2E35;
+}
+.card-wrapper{
+    margin-top: 40px;
+    display: flex;
+    gap: 100px;
+}
+.product-h3{
+    font-size: 28px;
+    color: red;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.product-p{
+    color: #30444E;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.product-btn{
+    width: 119px;
+    height: 42px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: #EE4248;
+    font-size: 15px;
+    color: white;
+    border: none;
+}
+/* conatact section */
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 90px;
+}
+.contact-div{
+    margin-top: 30px;
+}
+.adress-p {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.adress-span{
+    font-weight: 300;
+    font-size: 18px;
+    color: #263238;
+    line-height: 149%;
+}
+.contact-h4 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #263238;
+    margin-bottom: 15px;
+
+}
+.contact-p{
+    line-height: 149%;
+    font-size: 18px;
+    color: #263238;
+    font-weight: 300;
+}
+
+footer{
+    background-color: #EE4248;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-p {
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    line-height: 100%;
+}
+.footer-span{
+    font-weight: 500;
+    
+}

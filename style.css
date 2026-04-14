@@ -29,12 +29,13 @@ a{
     height: 9px;
 }
 header{
-    width: 100%;
     display: flex;
     gap: 115px;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid gray;
+}
+hr{
+    border: 1px solid gray;
 }
 .nav-list{
     display: flex;
